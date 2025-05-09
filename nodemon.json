@@ -1,0 +1,14 @@
+{
+    "verbose": true,
+    "ignore": ["node_modules/*", "dist/*"],
+    "watch": [
+        "app/**/*",
+        "*.js",
+        "*.json"
+    ],
+    "ext": "js,json,ejs,css,html",
+    "delay": "1000",
+    "env": {
+        "NODE_ENV": "development"
+    }
+} 

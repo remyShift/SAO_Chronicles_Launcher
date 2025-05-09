@@ -5,16 +5,15 @@ title = "Helios Launcher"
 
 [ejs.landing]
 mediaGitHubURL = "https://github.com/dscalzi/HeliosLauncher"
-mediaXURL = "#"
-mediaInstagramURL = "#"
-mediaYouTubeURL = "#"
-mediaDiscordURL = "https://discord.gg/zNWUXdt"
+mediaTiktokURL = "https://www.tiktok.com/@saochroniclesfr"
+mediaDiscordURL = "https://discord.gg/69yYyXUJ8Z"
+mediaInstagramURL = "https://www.instagram.com/sao_chronicles?igsh=cmYyN3Z0NDJyeTNx"
 
 [ejs.settings]
 sourceGithubLink = "https://github.com/dscalZi/HeliosLauncher"
 supportLink = "https://github.com/dscalZi/HeliosLauncher/issues"
 
 [ejs.welcome]
-welcomeHeader = "WELCOME TO WESTEROSCRAFT"
-welcomeDescription = "Our mission is to recreate the universe imagined by author George RR Martin in his fantasy series, A Song of Ice and Fire.  Through the collaborative effort of thousands of community members, we have sought to create Westeros as accurately and precisely as possible within Minecraft.  The world we are creating is yours to explore.  Journey from Dorne to Castle Black, and if you aren’t afraid, beyond the Wall itself, but best not delay.  As the words of House Stark ominously warn: Winter is Coming."
-welcomeDescCTA = "You are just a few clicks away from Westeros."
+welcomeHeader = "WELCOME TO SAO CHRONICLES"
+welcomeDescription = "Our mission is to recreate the universe imagined by author Kazuto Nakazawa in his fantasy series, SAO Chronicles.  Through the collaborative effort of thousands of community members, we have sought to create SAO Chronicles as accurately and precisely as possible within Minecraft.  The world we are creating is yours to explore.  Journey from the first floor to the final floor in the Aincrad."
+welcomeDescCTA = "You are just a few clicks away from SAO Chronicles."

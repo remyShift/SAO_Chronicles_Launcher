@@ -2858,8 +2858,6 @@ input:checked + .toggleSwitchSlider:before {
     height: 70px;
     width: auto;
     position: relative;
-    border: 2px solid white;
-    box-sizing: border-box;
     border-radius: 50%;
 }
 
@@ -3136,12 +3134,12 @@ input:checked + .toggleSwitchSlider:before {
     transition-delay:0s;
 }
 
-/* X icon colors. */
-#xSVG:hover,
-#xURL:focus #xSVG {
+/* Tiktok icon colors. */
+#tiktokSVG:hover,
+#tiktokURL:focus #tiktokSVG {
     fill: #000000;
 }
-#xSVG:active {
+#tiktokSVG:active {
     fill: #090909;
 }
 
@@ -3153,15 +3151,6 @@ input:checked + .toggleSwitchSlider:before {
 }
 #instagramSVG:active {
     fill: url('#instaFill')
-}
-
-/* Youtube icon colors. */
-#youtubeSVG:hover,
-#youtubeURL:focus #youtubeSVG {
-    fill: #f00;
-}
-#youtubeSVG:active {
-    fill: #ea0202;
 }
 
 /* Discord icon colors. */
@@ -3947,7 +3936,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Rotating image for the spinner. */
 #loadSpinnerImage {
-    width: 280px;
+    width: 355px;
     height: auto;
     z-index: 400;
 }
