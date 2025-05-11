@@ -69,9 +69,24 @@ async function showMainUI(data){
     updateSelectedServer(data.getServerById(ConfigManager.getSelectedServer()))
     refreshServerStatus()
     setTimeout(() => {
-        document.getElementById('frameBar').style.backgroundColor = 'rgba(0, 0, 0, 0.5)'
-        document.body.style.backgroundImage = `url('assets/images/backgrounds/${document.body.getAttribute('bkid')}.jpg')`
+        document.body.style.backgroundImage = 'url(assets/images/backgrounds/7.jpg)'
         $('#main').show()
+
+        document.body.style.backgroundSize = 'cover'
+        document.body.style.backgroundPosition = 'center'
+        document.body.style.position = 'relative'
+        document.body.style.backgroundColor = 'transparent'
+
+        const overlay = document.createElement('div')
+        overlay.style.position = 'fixed'
+        overlay.style.top = '0'
+        overlay.style.left = '0'
+        overlay.style.width = '100%'
+        overlay.style.height = '100%'
+        overlay.style.backgroundColor = 'rgba(0, 0, 0, 0.4)'
+        overlay.style.pointerEvents = 'none'
+        overlay.style.zIndex = '-1'
+        document.body.appendChild(overlay)
 
         const isLoggedIn = Object.keys(ConfigManager.getAuthAccounts()).length > 0
 

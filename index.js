@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+
 const remoteMain = require('@electron/remote/main')
 remoteMain.initialize()
 

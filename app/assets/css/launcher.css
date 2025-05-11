@@ -2855,7 +2855,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Logo image. */
 #image_seal {
-    height: 70px;
+    height: 80px;
     width: auto;
     position: relative;
     border-radius: 50%;
