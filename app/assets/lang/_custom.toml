@@ -1,17 +1,17 @@
 # Custom Language File for Launcher Customizer
 
 [ejs.app]
-title = "Helios Launcher"
+title = "SAO Chronicles Launcher"
 
 [ejs.landing]
-mediaGitHubURL = "https://github.com/dscalzi/HeliosLauncher"
+mediaGitHubURL = "https://github.com/remyShift/SAO_Chronicles_Launcher"
 mediaTiktokURL = "https://www.tiktok.com/@saochroniclesfr"
 mediaDiscordURL = "https://discord.gg/69yYyXUJ8Z"
 mediaInstagramURL = "https://www.instagram.com/sao_chronicles?igsh=cmYyN3Z0NDJyeTNx"
 
 [ejs.settings]
-sourceGithubLink = "https://github.com/dscalZi/HeliosLauncher"
-supportLink = "https://github.com/dscalZi/HeliosLauncher/issues"
+sourceGithubLink = "https://github.com/remyShift/SAO_Chronicles_Launcher"
+supportLink = "https://github.com/remyShift/SAO_Chronicles_Launcher/issues"
 
 [ejs.welcome]
 welcomeHeader = "WELCOME TO SAO CHRONICLES"
