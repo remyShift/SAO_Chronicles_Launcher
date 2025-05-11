@@ -69,7 +69,7 @@ async function showMainUI(data){
     updateSelectedServer(data.getServerById(ConfigManager.getSelectedServer()))
     refreshServerStatus()
     setTimeout(() => {
-        document.body.style.backgroundImage = 'url(assets/images/backgrounds/7.jpg)'
+        document.body.style.backgroundImage = `url('assets/images/backgrounds/${document.body.getAttribute('bkid')}.jpg')`
         $('#main').show()
 
         document.body.style.backgroundSize = 'cover'
