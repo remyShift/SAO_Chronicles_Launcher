@@ -127,7 +127,7 @@ For instructions on setting up Microsoft Authentication, see https://github.com/
 
 The best way to contact the developers is on Discord.
 
-[![discord](https://discord.gg/69yYyXUJ8Z)][discord]
+[![discord][discord]
 
 ---
 
