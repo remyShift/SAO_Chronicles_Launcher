@@ -76,8 +76,8 @@ This section details the setup of a basic development environment.
 **Clone and Install Dependencies**
 
 ```console
-> git clone https://github.com/dscalzi/HeliosLauncher.git
-> cd HeliosLauncher
+> git clone https://github.com/remyshift/SAO_Chronicles_Launcher.git
+> cd SAO_Chronicles_Launcher
 > npm install
 ```
 
