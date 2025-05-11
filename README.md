@@ -28,20 +28,11 @@
 
 This is not an exhaustive list. Download and install the launcher to discover all it can do!
 
-#### Need Help? [Check the wiki.][wiki]
-
 #### Like the project? Leave a ⭐ star on the repository!
 
 ## Downloads
 
 You can download from [GitHub Releases](https://github.com/dscalzi/HeliosLauncher/releases)
-
-#### Latest Release
-
-[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher.svg?style=flat-square)](https://github.com/dscalzi/HeliosLauncher/releases/latest)
-
-#### Latest Pre-Release
-[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher/all.svg?style=flat-square)](https://github.com/dscalzi/HeliosLauncher/releases)
 
 **Supported Platforms**
 
