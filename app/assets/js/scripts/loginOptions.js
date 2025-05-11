@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const loginOptionsCancelContainer = document.getElementById('loginOptionCancelContainer')
 const loginOptionMicrosoft = document.getElementById('loginOptionMicrosoft')
 const loginOptionMojang = document.getElementById('loginOptionMojang')

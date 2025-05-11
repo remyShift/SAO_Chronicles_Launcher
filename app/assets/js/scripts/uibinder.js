@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /**
  * Initialize UI functions which depend on internal modules.
  * Loaded after core UI functions are initialized in uicore.js.

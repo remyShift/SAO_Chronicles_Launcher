@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /**
  * Script for welcome.ejs
  */

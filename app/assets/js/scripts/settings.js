@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 // Requirements
 const os     = require('os')
 const semver = require('semver')

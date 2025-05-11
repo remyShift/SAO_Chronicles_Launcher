@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+
 const fs   = require('fs-extra')
 const { LoggerUtil } = require('helios-core')
 const os   = require('os')

@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+
 // NOTE FOR THIRD-PARTY
 // REPLACE THIS CLIENT ID WITH YOUR APPLICATION ID.
 // SEE https://github.com/dscalzi/HeliosLauncher/blob/master/docs/MicrosoftAuth.md

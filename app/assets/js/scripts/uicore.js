@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /**
  * Core UI functions are initialized in this file. This prevents
  * unexpected errors from breaking the core features. Specifically,

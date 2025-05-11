@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const fs        = require('fs-extra')
 const path      = require('path')
 const { ipcRenderer, shell } = require('electron')

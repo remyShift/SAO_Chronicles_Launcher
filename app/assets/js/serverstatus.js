@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+
 const net = require('net')
 
 /**

@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+
 const { DistributionAPI } = require('helios-core/common')
 
 const ConfigManager = require('./configmanager')

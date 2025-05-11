@@ -1,3 +1,5 @@
+/* eslint-disable linebreak-style */
+
 // Work in progress
 const { LoggerUtil } = require('helios-core')
 
