@@ -1,4 +1,4 @@
-<p align="center"><img src="./app/assets/images/logo.png" width="200px" height="150px" alt="SAO Chronicles"></p>
+<p align="center"><img src="./app/assets/images/logo.png" width="220px" height="150px" alt="SAO Chronicles"></p>
 
 <h1 align="center">SAO Chronicles Launcher</h1>
 
