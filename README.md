@@ -123,7 +123,7 @@ For instructions on setting up Microsoft Authentication, see https://github.com/
 
 * [Nebula (Create Distribution.json)][nebula]
 
-The best way to contact the developers is on discord.
+The best way to contact the developers is on [discord].
 
 ---
 
