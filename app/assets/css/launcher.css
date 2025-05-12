@@ -2505,7 +2505,7 @@ input:checked + .toggleSwitchSlider:before {
     transition: top 2s ease;
     top: 0px;
     height: 100%;
-    width: 34%;
+    width: 70%;
     display: inline-flex;
     justify-content: center;
 }
@@ -2522,6 +2522,7 @@ input:checked + .toggleSwitchSlider:before {
     height: 100%;
     width: 33%;
     display: inline-flex;
+    justify-content: center;
 }
 
 
@@ -2905,8 +2906,8 @@ input:checked + .toggleSwitchSlider:before {
 /* Span which displays the player count of the selected server. */
 #player_count {
     color: #949494;
-    font-size: 8px;
-    font-weight: 900;
+    font-size: 10px;
+    font-weight: bold;
     text-shadow: 0px 0px 20px #949494;
     margin-left: 10px;
 }
@@ -3058,7 +3059,7 @@ input:checked + .toggleSwitchSlider:before {
     top: 25px;
     display: none;
 }
- 
+
 /* Left side of launch details container, displays percentage and a divider. */
 #launch_details_left {
     display: flex;
@@ -3080,25 +3081,6 @@ input:checked + .toggleSwitchSlider:before {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-/* Button which opens the server selection view. */
-#server_selection_button {
-    background: none;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    line-height: 24px;
-    padding: 0px;
-    transition: 0.25s ease;
-}
-#server_selection_button:hover,
-#server_selection_button:focus {
-    text-shadow: 0px 0px 20px #fff, 0px 0px 20px #fff, 0px 0px 20px #fff;
-}
-#server_selection_button:active {
-    color: #c7c7c7;
-    text-shadow: 0px 0px 20px #c7c7c7, 0px 0px 20px #c7c7c7, 0px 0px 20px #c7c7c7;
 }
 
 /* Progress bar styles. */

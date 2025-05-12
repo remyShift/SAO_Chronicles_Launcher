@@ -8,8 +8,7 @@ serverStatusPlaceholder = "OFFLINE"
 mojangStatus = "MOJANG STATUS"
 mojangStatusTooltipTitle = "Services"
 mojangStatusNETitle = "Non&nbsp;Essential"
-launchButton = "PLAY"
-launchButtonPlaceholder = "&#8226; No Server Selected"
+launchButton = "Link Start"
 launchDetails = "Please wait.."
 
 [ejs.login]

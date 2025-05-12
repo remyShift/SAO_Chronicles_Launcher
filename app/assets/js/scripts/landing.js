@@ -38,7 +38,6 @@ const launch_details          = document.getElementById('launch_details')
 const launch_progress         = document.getElementById('launch_progress')
 const launch_progress_label   = document.getElementById('launch_progress_label')
 const launch_details_text     = document.getElementById('launch_details_text')
-const server_selection_button = document.getElementById('server_selection_button')
 const user_text               = document.getElementById('user_text')
 
 const loggerLanding = LoggerUtil.getLogger('Landing')
@@ -164,17 +163,10 @@ function updateSelectedServer(serv){
     }
     ConfigManager.setSelectedServer(serv != null ? serv.rawServer.id : null)
     ConfigManager.save()
-    server_selection_button.innerHTML = '&#8226; ' + (serv != null ? serv.rawServer.name : Lang.queryJS('landing.noSelection'))
     if(getCurrentView() === VIEWS.settings){
         animateSettingsTabRefresh()
     }
     setLaunchEnabled(serv != null)
-}
-// Real text is set in uibinder.js on distributionIndexDone.
-server_selection_button.innerHTML = '&#8226; ' + Lang.queryJS('landing.selectedServer.loading')
-server_selection_button.onclick = async e => {
-    e.target.blur()
-    await toggleServerSelection(true)
 }
 
 // Update Mojang Status Color
