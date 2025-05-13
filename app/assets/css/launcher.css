@@ -2461,7 +2461,6 @@ input:checked + .toggleSwitchSlider:before {
     height: 100%;
     position: relative;
     transition: background 2s ease;
-    overflow-y: hidden;
 }
 
 /* Upper content container. */
@@ -2469,7 +2468,7 @@ input:checked + .toggleSwitchSlider:before {
     position: relative;
     transition: top 2s ease;
     top: 0px;
-    height: 77%;
+    height: 70%;
     display: flex;
 }
 #landingContainer > #upper > #left {
@@ -2491,18 +2490,9 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Lower content container. */
 #landingContainer > #lower {
-    height: 23%;
+    height: 30%;
     display: flex;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-#landingContainer > #lower > #left {
-    position: relative;
-    transition: top 2s ease;
-    top: 0px;
-    height: 100%;
-    width: 33%;
-    display: inline-flex;
-    justify-content: center;
 }
 
 #landingContainer > #lower > #center {
@@ -2527,17 +2517,6 @@ input:checked + .toggleSwitchSlider:before {
     justify-content: center;
     top: 10px;
 }
-
-#landingContainer > #lower > #right {
-    position: relative;
-    transition: top 2s ease;
-    top: 0px;
-    height: 100%;
-    width: 33%;
-    display: inline-flex;
-    justify-content: center;
-}
-
 
 .bbCodeSpoilerButton {
     background: none;
@@ -3057,13 +3036,6 @@ input:checked + .toggleSwitchSlider:before {
 /* * *
 * Landing View (Bottom Styles) | Right Content
 * * */
-
-/* Main launch content container. */
-#landingContainer > #lower > #right #launch_content {
-    position: relative;
-    top: 25px;
-    display: inline-flex;
-}
 
 /* The launch button. */
 #launch_button {
