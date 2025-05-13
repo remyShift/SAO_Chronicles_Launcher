@@ -7,6 +7,7 @@ title = "SAO Chronicles Launcher"
 mediaGitHubURL = "https://github.com/remyShift/SAO_Chronicles_Launcher"
 mediaTiktokURL = "https://www.tiktok.com/@saochroniclesfr"
 mediaDiscordURL = "https://discord.gg/69yYyXUJ8Z"
+mediaWebsiteURL = "https://saochronicles.fr"
 mediaInstagramURL = "https://www.instagram.com/sao_chronicles?igsh=cmYyN3Z0NDJyeTNx"
 
 [ejs.settings]

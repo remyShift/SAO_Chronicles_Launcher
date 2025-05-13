@@ -234,29 +234,34 @@ const refreshServerStatus = async (fade = false) => {
 
     let pLabel = Lang.queryJS('landing.serverStatus.server')
     let pVal = Lang.queryJS('landing.serverStatus.offline')
+    let playerCount = document.getElementById('player_count')
 
-    try {
-
-        const servStat = await getServerStatus(47, serv.hostname, serv.port)
-        console.log(servStat)
-        pLabel = Lang.queryJS('landing.serverStatus.players')
-        pVal = servStat.players.online + '/' + servStat.players.max
-
-    } catch (err) {
-        loggerLanding.warn('Unable to refresh server status, assuming offline.')
-        loggerLanding.debug(err)
-    }
-    if(fade){
-        $('#server_status_wrapper').fadeOut(250, () => {
-            document.getElementById('landingPlayerLabel').innerHTML = pLabel
-            document.getElementById('player_count').innerHTML = pVal
-            $('#server_status_wrapper').fadeIn(500)
+    getServerStatus(47, serv.hostname, serv.port)
+        .then(servStat => {
+            console.log(servStat)
+            pLabel = Lang.queryJS('landing.serverStatus.players')
+            pVal = servStat.players.online + '/' + servStat.players.max
+            playerCount.setAttribute('online', '')
+            playerCount.removeAttribute('offline')
         })
-    } else {
-        document.getElementById('landingPlayerLabel').innerHTML = pLabel
-        document.getElementById('player_count').innerHTML = pVal
-    }
-    
+        .catch(err => {
+            loggerLanding.warn('Unable to refresh server status, assuming offline.')
+            loggerLanding.debug(err)
+            playerCount.setAttribute('offline', '')
+            playerCount.removeAttribute('online')
+        })
+        .finally(() => {
+            if(fade){
+                $('#server_status_wrapper').fadeOut(250, () => {
+                    document.getElementById('landingPlayerLabel').innerHTML = pLabel
+                    document.getElementById('player_count').innerHTML = pVal
+                    $('#server_status_wrapper').fadeIn(500)
+                })
+            } else {
+                document.getElementById('landingPlayerLabel').innerHTML = pLabel
+                document.getElementById('player_count').innerHTML = pVal
+            }
+        })
 }
 
 refreshMojangStatuses()

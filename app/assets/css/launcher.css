@@ -22,6 +22,17 @@
     src: url('../fonts/Ringbearer.ttf');
 }
 
+@font-face {
+    font-family: 'Hacked Kerx';
+    src: url('../fonts/Hacked_Font/Hacked-Kerx.ttf');
+}
+
+@font-face {
+    font-family: 'SAOUI Regular';
+    src: url('../fonts/Sword_Art_Online_Font/SAOUITT-Regular.ttf');
+}
+
+
 /*******************************************************************************
  *                                                                             *
  * Element Styles                                                              *
@@ -2493,28 +2504,30 @@ input:checked + .toggleSwitchSlider:before {
     display: inline-flex;
     justify-content: center;
 }
-#landingContainer > #lower > #left #content {
-    position: relative;
-    top: 25px;
-    display: inline-flex;
-    line-height: 24px;
-    left: 50px;
-}
+
 #landingContainer > #lower > #center {
     position: relative;
     transition: top 2s ease;
     top: 0px;
     height: 100%;
-    width: 70%;
-    display: inline-flex;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
+
 #landingContainer > #lower > #center #content {
     position: relative;
+    width: 300px;
     z-index: 500;
     transition: top 2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     top: 10px;
 }
+
 #landingContainer > #lower > #right {
     position: relative;
     transition: top 2s ease;
@@ -2855,7 +2868,6 @@ input:checked + .toggleSwitchSlider:before {
 #instagramSVG:hover,
 #instagramURL:focus #instagramSVG {
     fill: url('#instaFill')
-    /*fill: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); */
 }
 #instagramSVG:active {
     fill: url('#instaFill')
@@ -2868,6 +2880,23 @@ input:checked + .toggleSwitchSlider:before {
 }
 #discordSVG:active {
     fill: #657ac4;
+}
+
+/* Website icon colors. */
+#websiteSVG {
+    fill: #ffffff;
+    width: 16px;
+    height: 16px;
+    transition: 0.25s ease;
+}
+
+#websiteSVG:hover,
+#websiteURL:focus #websiteSVG {
+    fill: #000000;
+    transform: scale(1.4);
+}
+#websiteSVG:active {
+    fill: #090909;
 }
 
 /*******************************************************************************
@@ -2905,17 +2934,27 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Span which displays the player count of the selected server. */
 #player_count {
-    color: #949494;
     font-size: 10px;
     font-weight: bold;
     text-shadow: 0px 0px 20px #949494;
     margin-left: 10px;
 }
 
+#player_count[online] {
+    color: #23aa23;
+    text-shadow: 0px 0px 20px #23aa23;
+}
+
+#player_count[offline] {
+    color: #c32625;
+    text-shadow: 0px 0px 20px #c32625;
+}
+
 /* Wrapper container for the mojang status bar. */
 #mojangStatusWrapper {
     position: relative;
     display: flex;
+    align-items: center;
     cursor: pointer;
 }
 
@@ -3029,23 +3068,23 @@ input:checked + .toggleSwitchSlider:before {
 /* The launch button. */
 #launch_button {
     background: none;
+    font-family: 'SAOUI Regular';
     border: none;
     cursor: pointer;
-    font-weight: 900;
     letter-spacing: 2px;
     text-shadow: 0px 0px 0px #bebcbb;
-    font-size: 20px;
+    font-size: 40px;
     padding: 0px;
     transition: 0.25s ease;
     outline: none;
 }
 #launch_button:hover,
 #launch_button:focus {
-    text-shadow: 0px 0px 20px #fff, 0px 0px 20px #fff;
+    text-shadow: 0px 0px 15px #fff, 0px 0px 15px #fff;
 }
 #launch_button:active {
     color: #c7c7c7;
-    text-shadow: 0px 0px 20px #c7c7c7, 0px 0px 20px #c7c7c7;
+    text-shadow: 0px 0px 15px #c7c7c7, 0px 0px 15px #c7c7c7;
 }
 #launch_button:disabled {
     color: #c7c7c7;
